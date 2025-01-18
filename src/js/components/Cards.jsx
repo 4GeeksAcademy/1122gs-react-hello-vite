@@ -25,8 +25,7 @@ const cardInfoList = [
 function Cards() {
   return (
     <div className="container ">
-      <div className="row">
-      <div className="col-md-3 col-4 mb-3 d-flex">
+      <div className="row row-cols-1 row-cols-md-3 g-3">
        {cardInfoList.map((card, index) => (
         <div className="card border-secondary mb-3 mx-2" key={index}>
           <img src={card.img} className="card-img-top" alt={card.title} />
@@ -44,7 +43,7 @@ function Cards() {
       ))}
       </div>
       </div>
-    </div>
+    
   );
 }
 

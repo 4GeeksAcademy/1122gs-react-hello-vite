@@ -18,7 +18,7 @@
   }
   .card {
      flex: 1 1 auto; /*Allows cards to shrink and grow */
-    width: 1100px;
+    width: 260px;
     margin-top: 20px;
     padding: 0px;
     margin-right: 0px;
@@ -46,6 +46,6 @@
   .navbar-brand{
     color: white;
   }
-  .nav-link:active{
+  .nav-link{
     color: white;
   }
