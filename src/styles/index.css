@@ -9,3 +9,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container {
+    display: flex;
+    /* flex-wrap: nowrap; Ensures cards stay on one line */
+    /* justify-content: space-between; Adds space between cards */
+    /* gap: 1rem; Adds gap between cards */
+  }
+  .card {
+     flex: 1 1 auto; /*Allows cards to shrink and grow */
+    width: 1100px;
+    margin-top: 20px;
+    padding: 0px;
+    margin-right: 0px;
+    
+  }
+  /* .card::after{
+    width: 300px;
+    display: block;
+  } */
+  .jumbotron{
+    padding: 10px 20px 40px 20px;
+  }
+  img{
+    height: 300px;
+    width: 180px;
+    
+  }
+  .card-footer{
+    height: 100px;
+    padding-top: 50px;
+  }
+  .footer{
+    position: relative;
+  }
+  .navbar-brand{
+    color: white;
+  }
+  .nav-link:active{
+    color: white;
+  }
